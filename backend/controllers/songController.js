@@ -1,4 +1,4 @@
-const db = require("../.env/db");
+const db = require("../db");
 
 exports.getSongs = (req, res) => {
   db.query("SELECT * FROM Songs", (err, results) => {

@@ -1,4 +1,4 @@
-const db = require("../.env/db");
+const db = require("../db");
 
 // Get all albums
 exports.getAlbums = (req, res) => {
